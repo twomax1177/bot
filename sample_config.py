@@ -21,7 +21,7 @@ class Config(object):
     # Database URI
     DB_URI = os.environ.get("DATABASE_URL", "")
     # List of admin user ids for special functions(
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "twomax").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "271323195").split())
 
 
 def LOGGER(name: str) -> logging.Logger:
