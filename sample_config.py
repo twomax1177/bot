@@ -13,7 +13,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 class Config(object):
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "2130767985:AAG9uZyT6d4C94emicOThIYYyJFPxYYTAj0")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "2140855367:AAECvMn07F0FwKnuwaJZ9ZTqDV-DVP-ybQo")
     # Get from my.telegram.org
     APP_ID = int(os.environ.get("APP_ID", "3911505"))
     # Get from my.telegram.org
@@ -21,7 +21,7 @@ class Config(object):
     # Database URI
     DB_URI = os.environ.get("DATABASE_URL", "")
     # List of admin user ids for special functions(
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "271323195").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1275381999").split())
 
 
 def LOGGER(name: str) -> logging.Logger:
